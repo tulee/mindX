@@ -1,0 +1,139 @@
+body{
+    background: #BFC8E6;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    font-family: 'Merriweather';
+    font-size: 32px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px;
+    gap: 60px;
+    width: 1213px;
+    height: 830px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-top: 169px;
+    margin-bottom: 169px;
+    padding-bottom: 0;
+}
+
+.menuBar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.searchBar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    border: solid 1px #BFC8E6;
+    border-radius: 6px;
+    
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menuList{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+input {
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+li {
+    padding: 16px;
+    list-style-type: none;
+    font-family: 'Poppins';
+}
+
+#menuItem02{
+    background: #849FFF;
+    border-radius: 8px;
+    color: white;
+}
+
+.userList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.userInfo{
+    width: 20%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    background: #FBFCFF;
+    padding: 24px;
+    margin: 10px;
+    border-radius: 16px;
+    height: 175px;
+}
+
+.userInfoSpe{
+    width: 20%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    margin: 10px;
+    border-radius: 16px;
+    height: 175px;
+    background: #FBFCFF;
+    border: 1px solid #BFC8E6;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+}
+
+
+img {
+    width: 97px;
+}
+
+.userBio{
+    margin-left: 20px;
+    padding-top: 20px
+}
+
+.userName{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.userAdress{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.userSkill{
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    color: #516FD5;
+    padding: 2px 8px;
+    margin: 2px;
+    display: inline-block;
+}
